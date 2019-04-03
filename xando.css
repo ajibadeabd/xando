@@ -1,0 +1,36 @@
+.row{width: 100%;}
+.col-1{width:18.33;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66;}
+.col-6{width:50%;}
+.col-7{width:58.333%;}
+.col-8{width:66.66;}
+.col-9{width:75%;}
+.col-10{width:83.333%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
+    background: blue;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+    border-bottom: 12px  solid red,
+}
+#container{
+    display:flex;
+    border-bottom: 12px  solid red,
+}
+#all{
+    margin:0px 500px 0px 500px;   
+}
+#turn{
+    width:100%;
+    color: rgb(204, 248, 248);
+    background-color: rgb(73, 73, 160);
+    text-align: center;
+    font-size: 50px;
+    /* margin:0px, 0px,111 0px, 100px;   */
+    /* margin-left: 100px;  */
+    /* margin-right: 100px;  */
+}
