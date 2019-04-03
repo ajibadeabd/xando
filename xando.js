@@ -47,6 +47,8 @@ yourTurn.onclick = yourTurn = ()=>{
     one.innerHTML=''; two.innerHTML="";  three.innerHTML="" ; 
      four.innerHTML="" ;  five.innerHTML=""; six.innerHTML="";
    seven.innerHTML="";eight.innerHTML="";nine.innerHTML='';
+   yourTurn.onclick = yourTurn = ()=>{}
+   yourTurn.removeEventListener('click',yourTurn)
     }    
 
 
