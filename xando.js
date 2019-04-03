@@ -47,8 +47,7 @@ yourTurn.onclick = yourTurn = ()=>{
     one.innerHTML=''; two.innerHTML="";  three.innerHTML="" ; 
      four.innerHTML="" ;  five.innerHTML=""; six.innerHTML="";
    seven.innerHTML="";eight.innerHTML="";nine.innerHTML='';
-   yourTurn.onclick = yourTurn = ()=>{}
-   yourTurn.removeEventListener('click',yourTurn)
+   
     }    
 
 
@@ -81,8 +80,7 @@ myTurn.onclick  = myTurn = ()=>{
        ( three.innerHTML=="x" && five.innerHTML=="x" && seven.innerHTML=='x'))){
          turn.innerHTML="user wins"
 
-            can.innerHTML=1
-            
+             
     }else if(((one.innerHTML=='o'  && two.innerHTML=="o" && three.innerHTML=="o")||  
     (four.innerHTML=="o"  && five.innerHTML=="o"&& six.innerHTML=="o") ||
     ( seven.innerHTML=="o" && eight.innerHTML=="o" &&nine.innerHTML=='o')||
@@ -101,7 +99,8 @@ myTurn.onclick  = myTurn = ()=>{
         }
         else{
        turn.innerHTML="it computer's turn";
-       play='computer' ;}
+       play='computer'
+       yourTurn.innerHTML='' ;}
     //i want to remove the event listener but it not going
 
 
